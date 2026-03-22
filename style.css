@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fdfaf6;
+  color: #333;
+}
+
+/* MENU */
+nav {
+  position: fixed;
+  width: 100%;
+  background: #ffffffcc;
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px;
+  top: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #c9a66b;
+}
+
+/* SEÇÕES */
+.section {
+  padding: 100px 20px;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* BOTÃO */
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #c9a66b;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #b89355;
+}
+
+/* PRESENTES */
+.lista-presentes {
+  margin-top: 20px;
+}
+
+.presente {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.pix {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+  margin-top: 40px;
+}
